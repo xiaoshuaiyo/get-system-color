@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="get-system-color",
-    version="1.1.2",
+    version="1.1.3",
     author="xiaoshuaiYo",
     author_email="619396351@qq.com",
     description="这个库可快速调用windows平台的主题色及主题的信号",
@@ -18,10 +18,6 @@ setuptools.setup(
     extras_requirep={
         'full': ['scipy', 'pillow<=9.4.0', 'colorthief']
     },
-    classifiers=[
-        'Programming Language :: Pythonpython3 -m pip install --user --upgrade setuptools wheel :: 3',
-        'Operating System :: OS Independent'
-    ],
     project_urls={
         'Source Code': 'https://github.com/xiaoshuaiyo/get-system-color',
         'Bug Tracker': 'https://github.com/xiaoshuaiyo/get-system-color/issues',
